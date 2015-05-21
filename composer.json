@@ -1,0 +1,19 @@
+{
+    "name": "farmani/pasargad",
+    "description": "Pasargad payment files",
+    "type": "library",
+    "homepage": "https://github.com/farmani/pasargad",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramin Farmani",
+            "email": "ramin.farmani@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+    }
+}
+
