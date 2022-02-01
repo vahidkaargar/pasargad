@@ -1,19 +1,24 @@
 {
-    "name": "farmani/pasargad",
-    "description": "Pasargad payment files",
-    "type": "library",
-    "homepage": "https://github.com/farmani/pasargad",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ramin Farmani",
-            "email": "ramin.farmani@gmail.com"
-        }
-    ],
-    "require": {
-        "ext-curl": "*"
-    },
-    "require-dev": {
+  "name": "vahidjaargar/pasargad",
+  "description": "Pasargad payment packagist",
+  "type": "library",
+  "homepage": "https://github.com/vahidkaargar/pasargad",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vahid Kaargar",
+      "email": "vahidkaargar@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "vahidkaargar\\pasargad\\": "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*"
+  },
+  "require-dev": {
+  }
 }
 
