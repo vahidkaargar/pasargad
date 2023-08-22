@@ -96,9 +96,9 @@ class RSA
     {
         assert(strlen($data) == $blocksize);
         $data = substr($data, 1);
-        if ($data{0} == '\0')
+        if ($data[0] == '\0')
             die("Block type 0 not implemented.");
-        assert(($data{0} == "\x01") || ($data{0} == "\x02"));
+        assert(($data[0] == "\x01") || ($data[0] == "\x02"));
         $offset = strpos($data, "\0", 1);
         return substr($data, $offset + 1);
     }
